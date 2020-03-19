@@ -1,0 +1,61 @@
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  } 
+
+  .imageContainer{
+    width: 50%;
+    height: 150px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  
+  .column {
+    padding: 8px;
+  } 
+
+.column {
+    float: left;
+    width: 50%;
+    Height: 50%
+  }
+
+
+  .heading{
+    font-family:Arial, "Times New Roman";
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 1%
+}
+
+.form{
+        font-family:Arial, "Times New Roman";
+        font-size: 12px;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: 1%;
+       
+}
