@@ -1,3 +1,54 @@
+var btnHelp= document.getElementById('btnHelp');
+var helpTitle=document.getElementById('helptitle');
+var helpBody= document.getElementById('helpBody');
+var heading= document.getElementById('heading');
+var description= document.getElementById('description');
+
+var displayToggle=1;
+
+/*btnHelp.onclick= function(){
+  displayToggle++;
+  if(displayToggle%2 ==0)
+  {
+    showHelp();
+  }
+  else
+  {
+
+    hideHelp();
+  }
+}
+
+function showHelp(){
+  var titleWidth=0;
+  var bodyWidth=0;
+  var id= setInterval(frame, 1);
+  function frame(){
+    if(titleWidth ==270)
+    {
+      clearInterval(id);
+      heading.style.display='block';
+      var id2= setInterval(frame2, 1);
+      function frame2(){
+        if(bodyHeight == 270)
+        {
+          clearInterval(id2);
+        }
+        else
+        {
+          bodyHeight +=5;
+          helpBody.style.height= bodyHeight+ 'px';
+        }
+      }
+    }
+    else
+    {
+      titleWidth +=5;
+      helpTitle.style.width= titleWidth + 'px';
+    }
+  }
+} */
+
 function validateForm() {
 
   var country= document.getElementById("country").value;

@@ -4,6 +4,68 @@ body {
     font-family: Arial;
   }
 
+  .help-container{
+    width: 270px;
+    height: 320px;
+    background: #eee;
+    position:absolute;
+    top:20px;
+    left: 1000px;
+  }
+
+  .Btn-help{
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(lightgray, darkturquoise);
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position:absolute;
+  padding: 8px 14px;
+  top: 0;
+  left:0;
+  z-index: 1; 
+
+  }
+  
+  .help-title{
+  width: 270px;  
+  height: 50px;
+  background: linear-gradient(lightgray, darkturquoise);
+  position:absolute;
+  top:0; left:25px;
+  border-radius: 0 25px 0 0;
+
+  }
+
+  .help-title h2{
+  margin:0;
+  padding: 0;  
+  color: white;
+  padding:12px 35px;
+  left: 25px;
+
+  }
+
+  .help-body{
+    width: 270px;
+    height:270px;
+    background: gray;
+    position: absolute;
+    top: 50px; left:25px;
+    text-align:justify;
+    border-radius: 0 0 25px 25px;
+  }
+
+  .help-body p{
+   margin:0;
+   padding:0;
+   color: white;
+   padding: 12px 35px;
+   
+  }
   * {
     box-sizing: border-box;
   }
